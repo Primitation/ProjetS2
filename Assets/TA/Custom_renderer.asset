@@ -22,12 +22,12 @@ MonoBehaviour:
     m_Bits: 128
   outlineSettings:
     outlineColor: {r: 0, g: 0, b: 0, a: 1}
-    outlineScale: 2
-    depthThreshold: 28.8
-    robertsCrossMultiplier: 382
-    normalThreshold: 0.314
-    steepAngleThreshold: 1.97
-    steepAngleMultiplier: 254
+    outlineScale: 3.6
+    depthThreshold: 6.3
+    robertsCrossMultiplier: 270
+    normalThreshold: 0.716
+    steepAngleThreshold: 0.11
+    steepAngleMultiplier: 192
   viewSpaceNormalsTextureSettings:
     colorFormat: 0
     depthBufferBits: 16
