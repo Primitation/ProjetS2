@@ -56,8 +56,10 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Wind_Strengh: 0.05
-    - _Wind_speed: 3.5
+    - _Wind_speed: 2
+    - _contrasy: 0.46
     m_Colors:
     - _Color: {r: 0.3904756, g: 0.7924528, b: 0.08597367, a: 0}
+    - _Color_1: {r: 0.42519578, g: 0.99056596, b: 0.4586717, a: 0}
     - _Wind_direction: {r: 1, g: 1.09, b: 0, a: 0}
   m_BuildTextureStacks: []
