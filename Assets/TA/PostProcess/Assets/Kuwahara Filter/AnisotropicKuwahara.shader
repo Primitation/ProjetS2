@@ -1,4 +1,4 @@
-Shader "Hidden/AnisotropicKuwahara" {
+Shader "Custom/AnisotropicKuwahara" {
     Properties {
         _MainTex ("Texture", 2D) = "white" {}
     }
