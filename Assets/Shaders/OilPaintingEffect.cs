@@ -187,7 +187,7 @@ private static void GaussianBlur(Texture2D texture, float sigma)
 
             [Range(2f, 12f)]
             public float filterRadius = 4f;
-            [Range(2f, 16f)]
+            [Range(2f, 64f)]
             public float filterSharpness = 8f;
             [Range(0.125f, 8f)]
             public float eccentricity = 1f;

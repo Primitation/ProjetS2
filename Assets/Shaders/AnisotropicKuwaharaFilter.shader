@@ -10,7 +10,7 @@ Shader "Hidden/Oil Painting/Anisotropic Kuwahara Filter"
         _FilterKernelTex("Filter Kernel Texture", 2D) = "black" {}
 
         _FilterRadius("Filter Radius", Range(2, 12)) = 4
-        _FilterSharpness("Filter Sharpness", Range(2, 16)) = 8
+        _FilterSharpness("Filter Sharpness", Range(2, 64)) = 64
         _Eccentricity("Eccentricity", Range(0.125, 32)) = 1
     }
         SubShader

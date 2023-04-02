@@ -149,19 +149,19 @@ MonoBehaviour:
   m_Active: 1
   settings:
     anisotropicKuwaharaFilterSettings:
-      filterKernelSectors: 8
-      filterKernelSmoothness: 0.183
-      filterRadius: 4.14
-      filterSharpness: 9.71
-      eccentricity: 4.73
+      filterKernelSectors: 4
+      filterKernelSmoothness: 0.074
+      filterRadius: 4.07
+      filterSharpness: 32
+      eccentricity: 4.77
       iterations: 1
     edgeFlowSettings:
       noiseTexture: {fileID: 2800000, guid: f41e726af3fc2fb429747366edc7639c, type: 3}
       streamLineLength: 29
       streamKernelStrength: 0.953
     compositorSettings:
-      edgeContribution: 2.39
-      flowContribution: 4
-      depthContribution: 2.01
-      bumpPower: 0.642
-      bumpIntensity: 0.432
+      edgeContribution: 0
+      flowContribution: 1.3
+      depthContribution: 1.77
+      bumpPower: 0.722
+      bumpIntensity: 0.801
