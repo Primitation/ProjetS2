@@ -17,7 +17,7 @@ Shader "Unlit/GeoGrass" {
 		[Toggle(DISTANCE_DETAIL)] _DistanceDetail ("Toggle Blade Detail based on Camera Distance", Float) = 0
 	}
 	SubShader {
-		Tags { "RenderType"="Transparent" "Queue" = "Transparent" "RenderPipeline" = "UniversalPipeline" }
+		Tags { "RenderType"="Opaque" "RenderPipeline" = "UniversalPipeline" }
 		LOD 300
 
 		Cull Off
