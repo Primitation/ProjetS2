@@ -35,9 +35,9 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _FresnelStrengh: 1.73
-    - _Glow: 1
-    - _Opacity: 0.33
+    - _FresnelStrengh: 1.9
+    - _Glow: 1.69
+    - _Opacity: 0.41
     - _QueueControl: 0
     - _QueueOffset: 0
     - _RefractionStrengh: 1

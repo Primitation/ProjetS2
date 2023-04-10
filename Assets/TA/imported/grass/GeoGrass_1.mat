@@ -28,7 +28,7 @@ Material:
     - _RandomWidth: 0.27
     - _TessellationUniform: 1.09
     - _Width: 0.58
-    - _WindStrength: 0.78
+    - _WindStrength: 0.3
     m_Colors:
     - _Color: {r: 0.4454693, g: 0.7735849, b: 0.31016377, a: 1}
     - _Color2: {r: 0.25720763, g: 0.5377358, b: 0.043120332, a: 1}
