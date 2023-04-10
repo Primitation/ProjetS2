@@ -35,15 +35,16 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _Emissive: 2
     - _FresnelStrengh: 0.88
-    - _Glow: 1
-    - _Opacity: 0.35
+    - _Glow: 2
+    - _Opacity: 0.42
     - _QueueControl: 0
     - _QueueOffset: 0
     - _RefractionStrengh: 3.35
     m_Colors:
     - _Color_1: {r: 0.48036703, g: 0.764151, b: 0.44335175, a: 0}
-    - _Color_2: {r: 0.7921569, g: 0.3011751, b: 0.027450996, a: 0}
+    - _Color_2: {r: 0.972549, g: 0.33333334, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &8401918530715100460
 MonoBehaviour:
