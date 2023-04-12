@@ -26,10 +26,10 @@ Material:
     - _Height: 2.16
     - _RandomHeight: 0.31
     - _RandomWidth: 0.27
-    - _TessellationUniform: 2.2
+    - _TessellationUniform: 3
     - _Width: 0.58
-    - _WindStrength: 0.78
+    - _WindStrength: 0.15
     m_Colors:
-    - _Color: {r: 0.4454692, g: 0.7735849, b: 0.31016374, a: 1}
+    - _Color: {r: 0.29890415, g: 0.6509434, b: 0.15045391, a: 1}
     - _Color2: {r: 0.2572076, g: 0.53773576, b: 0.04312031, a: 1}
   m_BuildTextureStacks: []

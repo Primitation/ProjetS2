@@ -80,7 +80,21 @@ Shader "Unlit/GeoGrass" {
 				float NdotL = saturate(saturate(dot(input.normalWS, mainLight.direction)) + 0.8);
 				float up = saturate(dot(float3(0,1,0), mainLight.direction) + 0.5);
 
-				float3 shading = NdotL * up * mainLight.shadowAttenuation * mainLight.color + ambient;
+				half3 diffuseColor = 0;
+
+				int pixelLightCount = GetAdditionalLightsCount();
+				for (int i = 0; i < pixelLightCount; ++i)
+				{
+					Light light = GetAdditionalLight(i, input.positionWS);
+
+					half3 attenuatedLightColor = light.color * (light.distanceAttenuation * light.shadowAttenuation);
+
+					diffuseColor += LightingLambert(attenuatedLightColor, light.direction+5
+						, input.positionWS);
+
+				}
+
+				float3 shading = NdotL * up * mainLight.shadowAttenuation * mainLight.color + diffuseColor + ambient;
 				
 				return lerp(_Color, _Color2, input.uv.y) * float4(shading, 1);
 			}
