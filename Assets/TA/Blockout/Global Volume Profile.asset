@@ -58,7 +58,7 @@ MonoBehaviour:
     m_Value: {fileID: 2800000, guid: 06b5b5f94d7efaa46ac9e56cbe1704b4, type: 3}
   contribution:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
